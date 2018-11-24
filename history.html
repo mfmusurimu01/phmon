@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>TA Faris Muslim - History pH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!--Chartist Chart CSS -->
+    <link rel="stylesheet" href="assets/plugins/chartist/dist/chartist.min.css">
+
+    <!-- App css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="assets/js/modernizr.min.js"></script>
+    <style>
+    #simple-line-chart {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888; 
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar-->
+    <header id="topnav">
+        <div class="topbar-main">
+            <div class="container-fluid">
+
+                <!-- Logo container-->
+                <div class="logo">
+                    <!-- Text Logo -->
+                    <!--<a href="index.html" class="logo">-->
+                    <!--<span class="logo-small"><i class="mdi mdi-radar"></i></span>-->
+                    <!--<span class="logo-large"><i class="mdi mdi-radar"></i> Adminto</span>-->
+                    <!--</a>-->
+                    <!-- Image Logo -->
+                    <a href="monitoring.html" class="logo">
+                        <h2>Faris Muslim</h2>
+                    </a>
+                </div>
+                <!-- End Logo container-->
+
+                <div class="menu-extras topbar-custom">
+
+                    <ul class="list-unstyled topbar-right-menu float-right mb-0">
+
+                        <li class="menu-item">
+                            <!-- Mobile menu toggle-->
+                            <a class="navbar-toggle nav-link">
+                                <div class="lines">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <!-- End mobile menu toggle-->
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!-- end menu-extras -->
+
+                <div class="clearfix"></div>
+
+            </div> <!-- end container -->
+        </div>
+        <!-- end topbar-main -->
+
+        <div class="navbar-custom">
+            <div class="container-fluid">
+                <div id="navigation">
+                    <!-- Navigation Menu-->
+                    <ul class="navigation-menu">
+                        <li class="">
+                            <a href="monitoring.html"><i class="mdi mdi-clock-fast"></i> <span> Realtime </span> </a>
+                        </li>
+                        <li class="">
+                            <a href="history.html"><i class="mdi mdi-calendar-clock"></i> <span> History </span> </a>
+                        </li>
+                    </ul>
+                    <!-- End navigation menu -->
+                </div> <!-- end #navigation -->
+            </div> <!-- end container -->
+        </div> <!-- end navbar-custom -->
+    </header>
+    <!-- End Navigation Bar-->
+
+
+    <div class="wrapper">
+        <div class="container-fluid">
+
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="page-title">Chart History Nilai pH</h4>
+                </div>
+            </div>
+            <!-- end page title end breadcrumb -->
+
+
+            <div class="row">
+
+                <div class="col-xl-12">
+                    <div class="card-box">
+                        <div class="dropdown pull-right">
+                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="mdi mdi-dots-vertical"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item">Another action</a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item">Something else</a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
+                            </div>
+                        </div>
+
+                        <h4 class="header-title m-t-0 m-b-30">Simple line chart</h4>
+
+                        <div id="simple-line-chart" class="ct-chart ct-golden-section"></div>
+                    </div>
+                </div><!-- end col-->
+            </div>
+            <!-- end row -->
+
+        </div> <!-- end container -->
+
+    </div>
+    <!-- end wrapper -->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    2018 © Tugas Akhir Faris Muslim
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/waves.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+
+    <!--Chartist Chart-->
+    <script src="assets/plugins/chartist/dist/chartist.min.js"></script>
+    <script src="assets/plugins/chartist/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="assets/plugins/chartist/dist/chartist-plugin-pointlabels.js"></script>
+    <script src="assets/pages/paho.min.js"></script>
+    <script src="assets/pages/moment-with-locales.js"></script>
+    <script src="assets/pages/history.js"></script>
+    <!-- App js -->
+    <script src="assets/js/jquery.core.js"></script>
+    <script src="assets/js/jquery.app.js"></script>
+
+</body>
+
+</html>
