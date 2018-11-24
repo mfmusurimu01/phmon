@@ -1,3 +1,3 @@
 <?php
-include 'monitoring.php';
+include 'monitoring.html';
 ?>
