@@ -1,0 +1,3 @@
+<?php
+include 'monitoring.php';
+?>
